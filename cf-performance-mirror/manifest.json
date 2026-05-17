@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Performance Mirror",
+  "version": "1.1.0",
+  "description": "Advanced performance analytics for Codeforces profiles",
+  "permissions": ["storage", "unlimitedStorage"],
+  "host_permissions": ["https://codeforces.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/profile/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Codeforces Performance Mirror"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
