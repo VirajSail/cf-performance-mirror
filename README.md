@@ -7,7 +7,8 @@
 A **Chrome extension** that transforms your Codeforces profile into a powerful performance dashboard. See your **efficiency score**, track your **progress over time**, identify your **weakest tag**, and never miss a contest – all inside your profile page.
 
 ![Screenshot]
-<img width="600" height="900" alt="image" src="https://github.com/user-attachments/assets/0c7fcd23-42dd-4291-b14b-7998b0bafede" />
+<img width="888" height="1272" alt="image" src="https://github.com/user-attachments/assets/ab5d8a3e-d532-4a81-8a6c-31b0c2671b85" />
+
 
 
 <!-- You can add a screenshot later -->
